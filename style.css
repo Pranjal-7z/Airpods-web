@@ -1,0 +1,457 @@
+@font-face {
+  font-family: apple;
+  src: url(/sf-pro-text_regular.woff2);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Archivo", sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+nav {
+  font-family: apple;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-size: 1.1vw;
+  padding: 0 4vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 888;
+
+}
+
+nav h1 i {
+  font-size: 5vh;
+  color: #000000;
+  margin-right: 1vw;
+  font-weight: 400;
+}
+
+nav button {
+  padding: 1.5vh 2.2vw;
+  border: none;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.1vw;
+}
+
+h1 {
+
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.page1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+  flex-direction: column;
+
+  text-transform: capitalize;
+}
+
+.page1 h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0 4vw;
+}
+
+.page1 .bottom {
+  position: absolute;
+  bottom: 10%;
+  font-size: 2vw;
+  padding: 0 4vw;
+
+}
+
+.page1 .bottom h4 {
+  margin-top: 3vh;
+  text-align: left;
+}
+
+.page1 .bottom :nth-child(2) {
+  opacity: 0.5;
+}
+
+.page1 .bottom :nth-child(2) svg {
+  transform: translateY(20%);
+  width: 2vw;
+  height: 5vh;
+}
+
+.page2 {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.page1 .vid {
+  width: 7vw;
+  height: 7vw;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 44;
+
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.page3 {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.page4 {
+  overflow-x: hidden;
+  width: 100%;
+  height: 110vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.page4 .headings {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page4 h1 {
+  font-size: 14vw;
+}
+
+.page4 h1 span {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+
+}
+
+.images {
+  overflow-x: hidden;
+  width: 500vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+
+
+}
+
+.images .pro {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images img {
+
+  filter: drop-shadow(5px 10px 10px rgb(0, 0, 0));
+}
+
+.desc {
+  font-size: 1.5vw;
+  width: 30%;
+  height: 15%;
+  bottom: 13%;
+  left: 5%;
+  position: absolute;
+
+}
+
+.colorDiv {
+  display: flex;
+  gap: 2vw;
+  margin-top: 5%;
+}
+
+.desc .colors {
+  border-radius: 50%;
+  width: 2.5vw;
+  height: 2.5vw;
+
+}
+
+.c1 {
+  overflow: hidden;
+  background-color: #50524D;
+}
+
+.c2 {
+  overflow: hidden;
+  background-color: #3A5C78;
+}
+
+.c3 {
+  overflow: hidden;
+  background-color: #899883;
+}
+
+.c4 {
+  overflow: hidden;
+  background-color: #E5554D;
+}
+
+.c5 {
+  overflow: hidden;
+  background-color: #A2A3A7;
+}
+
+
+.c1 .color1 {
+  height: 50%;
+  width: 100%;
+  background-color: gray;
+}
+
+.c2 .color1 {
+  height: 50%;
+  width: 100%;
+  background-color: #A7B8CA;
+}
+
+.c3 .color1 {
+  height: 50%;
+  width: 100%;
+  background-color: #CBD8C6;
+}
+
+.c4 .color1 {
+  height: 50%;
+  width: 100%;
+  background-color: #F0D3CD;
+}
+
+.c5 .color1 {
+  height: 50%;
+  width: 100%;
+  background-color: #D5D6DA;
+}
+
+.colors:hover {
+  border: solid 2px rgb(129, 125, 125);
+}
+
+.desc button {
+  padding: 1.5vh 2.2vw;
+  margin-top: 5%;
+  border: none;
+  border-radius: 35px;
+  background-color: transparent;
+  border: 2px solid;
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.2vw;
+
+}
+
+.page5 {
+  width: 100%;
+  height: 65vh;
+  position: relative;
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.page5 .cards {
+  width: 150vw;
+  height: 85%;
+
+  display: flex;
+  overflow-x: hidden;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.page5 .cards .card1 {
+  gap: 2%;
+  width: 30vw;
+  height: 95%;
+  background-color: rgb(252, 237, 237);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2%;
+  border-radius: 25px;
+
+}
+
+.page5 .cards .card1 h1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.page5 .buttons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+}
+
+.page5 button {
+  width: 6vh;
+  margin-right: 10px;
+  right: 0;
+  height: 6vh;
+  font-size: 1vw;
+  border-radius: 50%;
+  border: 1px solid;
+  background-color: rgb(243, 239, 239);
+}
+
+.mainbox {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.section1 {
+  width: 25%;
+  height: 100%;
+  gap: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5% 1%;
+
+
+}
+
+.section2 {
+  width: 20%;
+  height: 100%;
+
+
+}
+
+.section3 {
+  width: 15%;
+  height: 100%;
+
+}
+
+.section4 {
+  width: 10%;
+  height: 100%;
+
+}
+
+.section5 {
+  width: 15%;
+  height: 100%;
+
+}
+
+.social {
+  width: 3vw;
+  height: 3vw;
+  background-color: rgb(253, 251, 245);
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social i{
+  font-size: 2.5vw;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+  gap: 3%;
+
+}
+
+.mainbox a {
+  text-decoration: none;
+  color: #000;
+}
+
+.mainbox li {
+  list-style-type: none;
+}
+
+.mainbox h5 {
+  font-size: 1.5vw;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+}
+
+li:hover {
+  translate: 3%;
+  transition: ease .11s;
+}
+
+li {
+  margin-top: 3vh;
+}
+
+.list {
+  height: 90%;
+  margin-top: 3vh;
+}
+
+.section5 button {
+  padding: 2% 20%;
+  margin-top: 4vh;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+}
+
+.section5 button svg {
+  width: 20%;
+  margin-right: 5%;
+}
+.section5 button i {
+font-size: 1.5vw;
+  padding: 5px;
+}
